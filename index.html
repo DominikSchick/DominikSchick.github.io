@@ -1,33 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+
 <head>
 <title>Home - Dominik Schick</title>
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    .imgbox {
-        display: grid;
-        height: 100%;
-    }
-    .center-fit {
-        max-width: 100%;
-        max-height: 100vh;
-        margin: auto;
-    }
-</style>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
+
 <body>
+<!--The secound site-->
+<p>Hello. Do you want to view the second site?<a href="page2.html">page 2</a> ?</p>
+
+<!--The third site-->
+<p>Hello. Do you want to view the thrird site?<a href="page3.html">page 3</a> ?</p>
+
 <!--First header-->
-<h1>This is a Heading</h1>
+<h1 id="myFirstHeader">This is a Heading</h1>
 
 <!--The Paragraph with text-->
 <p>This is a paragraph with Text.</p>
 
 <!--The picture-->
 <div class="imgbox">
-<a href="https://www.dominik-schick.at"><img class="center-fit" src="media/a4o-b4b-portraits-22.jpg">
+    <a href="https://www.dominik-schick.at"><img class="center-fit" src="media/a4o-b4b-portraits-22.jpg" alt="A picture of myself"></a>
 </div>
 
 <!--The link that opnes in a new tab-->
@@ -69,6 +63,27 @@
         </tr>
     </tfoot>
 </table>
+
+<!--The iFrame-->
+<iframe src="http://www.youtube.com/embed/W7qWa52k-nE"
+        width="560" height="315" allowfullscreen></iframe>
+
+<!--Semantic element 1-->
+<article>
+    <header>
+        <h1>What Does WWF Do?</h1>
+        <p>WWF's mission:</p>
+    </header>
+    <p>WWF's mission is to stop the degradation of our planet's natural environment,
+        and build a future in which humans live in harmony with nature.</p>
+</article>
+
+<!--Semantic element 2-->
+<footer>
+    <p>Posted by: Hege Refsnes</p>
+    <p>Contact information: <a href="mailto:someone@example.com">
+        someone@example.com</a>.</p>
+</footer>
 
 </body>
 </html>
