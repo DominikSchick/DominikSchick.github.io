@@ -1,0 +1,7 @@
+#write the files to ignore
+
+#folders are ignored by FOLDER-NAME/
+.idea/
+
+#files are ignored by simply writing their name
+.DS_Store
