@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Home - Dominik Schick</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .imgbox {
+        display: grid;
+        height: 100%;
+    }
+    .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+    }
+</style>
 </head>
 <body>
-
+<!--First header-->
 <h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+
+<!--The Paragraph with text-->
+<p>This is a paragraph with Text.</p>
+
+<!--The picture-->
+<div class="imgbox">
+<a href="https://www.dominik-schick.at"><img class="center-fit" src="media/a4o-b4b-portraits-22.jpg">
+</div>
+
+<!--The link that opnes in a new tab-->
+<a href="https://www.stackoverflow.com" target="_blank">stackoverflow.com</a>
+
+<!--Second header-->
+<h2>This is a Heading</h2>
+
+
+<!--This is the table alternatively you could create a list with two layers-->
+<table>
+    <thead>
+        <tr>
+          <th></th>
+          <th>Haus A</th>
+          <th>Haus B</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <th>Wohnflaeche</th>
+          <td>100</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <th>Gartenflaeche</th>
+          <td>50</td>
+          <td>100</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+          <th>Gesamtflaeche</th>
+          <td>150</td>
+          <td>250</td>
+        </tr>
+        <tr>
+          <td colspan="3">Alle Angaben in Quadratmetern.</td>
+        </tr>
+    </tfoot>
+</table>
 
 </body>
 </html>
