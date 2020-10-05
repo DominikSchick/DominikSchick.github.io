@@ -2,30 +2,52 @@
 <html lang="de">
 
 <head>
-<title>Home - Dominik Schick</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta charset="UTF-8">
+    <title>Home - Dominik Schick</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-
+<ul class="navigation">
+    <li><a href="page2.html">Page 2</a></li>
+    <li><a href="page3.html">Page 3</a></li>
+</ul>
 <!--First header-->
 <h1 id="myFirstHeader">This is a Heading</h1>
+<header class="header">Header</header>
 
-<!--The secound site-->
-<p>Hello. Do you want to view the second site?<a href="page2.html">page 2</a> ?</p>
-
-<!--The third site-->
-<p>Hello. Do you want to view the thrird site?<a href="page3.html">page 3</a> ?</p>
+<!--Flexbox-->
+<ul class="flex-container">
+    <li class="flex-item">1</li>
+    <li class="flex-item">2</li>
+    <li class="flex-item">3</li>
+    <li class="flex-item">4</li>
+    <li class="flex-item">5</li>
+    <li class="flex-item">6</li>
+    <li class="flex-item">7</li>
+    <li class="flex-item">8</li>
+    <li class="flex-item">9</li>
+    <li class="flex-item">10</li>
+    <li class="flex-item">11</li>
+    <li class="flex-item">12</li>
+    <li class="flex-item">13</li>
+    <li class="flex-item">14</li>
+    <li class="flex-item">15</li>
+    <li class="flex-item">16</li>
+</ul>
+<!--Flexbox end-->
 
 <!--The Paragraph with text-->
-<p>This is a paragraph with Text.</p>
+<p>The following Picture is also a link!</p>
 
 <!--The picture-->
 <div class="imgbox">
     <a href="https://www.dominik-schick.at"><img class="center-fit" src="media/a4o-b4b-portraits-22.jpg" alt="A picture of myself"></a>
 </div>
 
-<!--The link that opnes in a new tab-->
+<p>The Picture above is also a link!</p>
+
+<!--The link that opens in a new tab-->
 <a href="https://www.stackoverflow.com" target="_blank">stackoverflow.com</a>
 
 <!--Second header-->
@@ -40,22 +62,21 @@
           <th>Haus A</th>
           <th>Haus B</th>
         </tr>
-    </thead>
     <tbody>
         <tr>
-          <th>Wohnflaeche</th>
+          <th>Wohnfläche</th>
           <td>100</td>
           <td>150</td>
         </tr>
         <tr>
-          <th>Gartenflaeche</th>
+          <th>Gartenfläche</th>
           <td>50</td>
           <td>100</td>
         </tr>
     </tbody>
     <tfoot>
         <tr>
-          <th>Gesamtflaeche</th>
+          <th>Gesamtfläche</th>
           <td>150</td>
           <td>250</td>
         </tr>
@@ -66,13 +87,13 @@
 </table>
 
 <!--The iFrame-->
-<iframe src="http://www.youtube.com/embed/W7qWa52k-nE" width="560" height="315" frameborder=0 allowfullscreen></iframe>
+<iframe class="iframe" width="1280" height="720" src="https://www.youtube.com/embed/GdzrrWA8e7A" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!--Semantic element 1-->
 <article>
     <header>
-        <h1>What Does WWF Do?</h1>
-        <p>WWF's mission:</p>
+        <h3>What Does WWF Do?</h3>
+        <p class="relative">WWF's mission:</p>
     </header>
     <p>WWF's mission is to stop the degradation of our planet's natural environment,
         and build a future in which humans live in harmony with nature.</p>
